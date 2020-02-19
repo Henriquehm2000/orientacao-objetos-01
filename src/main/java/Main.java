@@ -23,8 +23,8 @@ public class Main {
         System.out.println(a2.getNomeCompleto());
 
 
-        System.out.println(calcularAreaQuadrado(15.0));
-        System.out.println(calcularPerimetroQuadrado(15.0));
+        System.out.println(calcularAreaQuadrado(16.4));
+        System.out.println(calcularPerimetroQuadrado(25.3));
 
 
     }
