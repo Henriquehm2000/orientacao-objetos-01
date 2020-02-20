@@ -37,4 +37,14 @@ public class RetanguloTeste {
         Double valorObtido = r1.calcularperimetro();
         assertEquals(valorEsperado, valorObtido);
     }
+
+    @Test
+    public void metodoCalcularArea() {
+        retangulo r1 = new retangulo();
+        r1.base = 10.0;
+        r1.altura = 15.0;
+        Double valorEsperado = 150.0;
+        Double valorObtido = r1.calculararea();
+        assertEquals(valorEsperado, valorObtido);
+    }
 }
